@@ -42,33 +42,23 @@ function Home() {
     </tr>
   </thead>
   <tbody>
-
- 
-  
-    
         {users && users.map((user, index) => (
-          <tr key={index}>
-           
-            <td>{user.id}</td>
+      <tr key={index}>        
+      <td>{user.id}</td>
       <td>{user.firstName}</td>
       <td>{user.lastName}</td>
       <td>{user.email}</td>
       <td>
       <Link to={`/edituser/${user.id}`} className="btn btn-outline-primary mr-2">Edit 
       </Link>
-     
        <Button variant="outline-danger" onClick={()=>deleteData(user.id)}>Delete</Button>{' '}
       </td>
-    
           </tr>
         ))}
-
 </tbody>
 </Table>
 </Container>
 </div>
-
-
   );
 }
 

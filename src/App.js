@@ -16,24 +16,16 @@ function App() {
   <Container>
 <Nav className="mr-auto">
  <Nav>
-
 <Nav>
 <Link className="nav-link" to="/">Home</Link>
 </Nav>
 <Nav>
 <Link className="nav-link" to="/adduser">Add User</Link>
 </Nav>
-
  </Nav>
 </Nav>
 </Container>
-</Navbar>
-
-
- 
-     
-
-      
+</Navbar> 
       <Switch>
         <Route exact path="/">
           <Home />
@@ -45,9 +37,7 @@ function App() {
         <Route path="/edituser/:id">
           <Edituser/>
         </Route>
-      </Switch>
-   
-   
+      </Switch>   
     </div>
   </Router>
   );
