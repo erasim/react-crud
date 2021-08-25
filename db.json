@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "firstName": "atif",
+      "lastName": "zaidi",
+      "email": "falakhasnainzaidi@mail.com",
+      "id": 2
+    },
+    {
+      "firstName": "azimul",
+      "lastName": "zaidi",
+      "email": "erzaman.zaidi@gmail.com",
+      "id": 3
+    }
+  ]
+}
