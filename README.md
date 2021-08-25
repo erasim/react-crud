@@ -6,7 +6,7 @@
 5 JSON Server <br>
 
 # App dependencies installation commands
-1 formik <br>                ### `npm install formik --save`
+1 formik             `npm install formik --save`<br>
 2 yup   <br>                  ###  `npm i yup`
 3 react-bootstrap <br>        ### ` npm install react-bootstrap@next bootstrap@5.1.0`
 4 react-router-dom <br>      ###  ` npm install react-router-dom`
