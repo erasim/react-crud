@@ -12,8 +12,7 @@
 4 react-router-dom  ` npm install react-router-dom`<br>
 5 JSON Server           `npm install -g json-server`<br>
 
-to start JSON server run the following command     ###  `npm install -g json-server`<br>
-`json-server --watch db.json --port 3004`<br>
+to start JSON server run the following command   `json-server --watch db.json --port 3004`<br>
 
 
 # Getting Started with Create React App
