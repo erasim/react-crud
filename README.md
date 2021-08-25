@@ -1,19 +1,20 @@
 # App dependencies
 1 formik<br>
-2 yup
-3 react-bootstrap
-4 react-router-dom
-5 JSON Server
+2 yup <br>
+3 react-bootstrap <br>
+4 react-router-dom <br>
+5 JSON Server <br>
 
 # App dependencies installation commands
-1 formik                  npm install formik --save
-2 yup                     npm i yup
-3 react-bootstrap         npm install react-bootstrap@next bootstrap@5.1.0
-4 react-router-dom        npm install react-router-dom
-5 JSON Server             npm install -g json-server
+1 formik <br>                ### `npm install formik --save`
+2 yup   <br>                  ###  `npm i yup`
+3 react-bootstrap <br>        ### ` npm install react-bootstrap@next bootstrap@5.1.0`
+4 react-router-dom <br>      ###  ` npm install react-router-dom`
+5 JSON Server<br>             ###  `npm install -g json-server`
 
-to start JSON server run the following command  
-json-server --watch db.json --port 3004
+to start JSON server run the following command <br> 
+5 JSON Server<br>             ###  `npm install -g json-server`
+###`json-server --watch db.json --port 3004`
 
 
 # Getting Started with Create React App
